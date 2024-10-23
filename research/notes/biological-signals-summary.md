@@ -37,3 +37,27 @@ This section Discusses
 - Deep fake detection current challenges and Next steps
 
 #### DeepFake Creation
+
+> [!info] Deep Auto Encoder
+> A type of Convolution model, used to compress an image
+
+FakeApp was created using a `Auto encoder - Decoder` coupled architecture
+
+Large number of 
+Creation Steps
+1. Shared auto encoder for both the subjects, but different decoders for decoding the subjects are trained.
+2.  Here we do the following on each frame from both the subjects
+	1. Face recognition isolates visages from source image
+	2. Now this visage say `visage A` is encoded
+	3. then decoded using `decoder B`
+	4. repeat for next frame
+3. Preprocessing for increasing resolution of images helps polishing the outcome
+4. 
+
+> [!info] visage
+> especially in contexts like computer vision, deepfakes, or image manipulation, **visage** refers to the **facial aspect of the image**—essentially, the appearance or structure of a person's face depicted in that image.
+
+
+
+
+
